@@ -32,3 +32,10 @@ Site, erişilebilen GitHub avatarını `https://avatars.githubusercontent.com/u/
 - Tema renkleri CSS'in en üstündeki `:root` bölümünden değiştirilebilir.
 - Harici yazı tipi veya JavaScript kütüphanesi kullanılmaz.
 - SEO için title, description, canonical, Open Graph ve `Person` yapılandırılmış verisi eklenmiştir.
+
+## Fotoğraf ve video galerisi
+
+- Fotoğraf galerisi, depodaki `images/` klasöründeki görselleri otomatik olmayan, doğrudan dosya yollarıyla gösterir. Yeni görsel eklerken HTML içindeki `photoNames` listesine dosya adını da eklemek gerekir.
+- YouTube video galerisi 7 uzun video ve 5 Shorts bağlantısı içerir.
+- Video kartları küçük resimleri YouTube görsel sunucusundan alır ve tıklanınca ilgili YouTube videosunu yeni sekmede açar.
+- Fotoğraf ve video bölümleri `index.html` içinde düzenlenir.
